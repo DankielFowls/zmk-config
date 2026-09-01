@@ -37,7 +37,7 @@
 
     keymap {
         compatible = "zmk,keymap";
-        default_layer {
+        Base_Layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  ;       │
@@ -74,13 +74,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │ -        │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  Ins     │
-            &kp INS    &kp N1     &kp N2     &kp N3     &kp -         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp INS
+            &kp INS    &kp N1     &kp N2     &kp N3     &kp MINUS     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp INS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │ =        │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  Del     │
-            &kp DEL    &kp N4     &kp N5     &kp N6     &kp =         &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp DEL 
+            &kp DEL    &kp N4     &kp N5     &kp N6     &kp EQUAL     &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp DEL 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ .        │  7       │  8       │  9       │ 0        │   │LCTRL L   │LCTRL R   │ BSPC     │ENTER     │ESC       │
-           &kp .       &kp N7     &kp N8     &kp N9     &kp N0       &kp LC(LEFT)&kp LC(RIGHT) &kp BSPC &kp ENTER &kp ESC
+           &kp DOT     &kp N7     &kp N8     &kp N9     &kp N0      &kp LC(LEFT) &kp LC(RIGHT) &kp BSPC &kp ENTER &kp ESC
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

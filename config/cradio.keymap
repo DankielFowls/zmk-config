@@ -65,7 +65,7 @@
             
             &kp LSHIFT  &kp A       &kp S       &kp D       &kp F       &trans &trans &trans &trans &trans
 
-                                             &kp LCTRL   &kp SPACE      &trans &to BASE
+                                             &kp LCTRL   &kp SPACE      &to BASE &trans
 
             >;
         };
@@ -118,7 +118,7 @@
         //│ BTClr    │ BT0      │ BT1      │ BT2      │ GAME     │   │          │          │  Play    │          │ BTLoader │
            &bt BT_CLR&bt BT_SEL 0&bt BT_SEL 1&bt BT_SEL 2&to GAME     &none      &none      &kp C_PP    &none    &bootloader
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &trans
+                                             &trans     &bootloader   &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

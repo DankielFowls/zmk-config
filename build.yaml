@@ -19,11 +19,11 @@
 #
 ---
 include:
-  - board: mikoto@5.20.0
+  - board: mikoto@6.1.0
     shield: cradio_left
 
-  - board: mikoto@5.20.0
+  - board: mikoto@6.1.0
     shield: cradio_right
 
-  - board: mikoto@5.20.0
+  - board: mikoto@6.1.0
     shield: settings_reset
